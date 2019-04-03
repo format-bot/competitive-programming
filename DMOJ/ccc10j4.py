@@ -1,4 +1,5 @@
 from sys import stdin
+
 while True:
   line = [int(i) for i in stdin.readline().strip().split()]
   n = line[0]

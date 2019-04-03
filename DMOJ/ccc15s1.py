@@ -6,5 +6,5 @@ for i in range(n):
         del k[-1]
     else:
         k.append(g)
-        
+
 print(sum(k))

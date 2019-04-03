@@ -10,7 +10,8 @@ def primefactor(n):
     if n > 1:
         f.append(n)
     return f
-    
+
+
 for i in range(int(input())):
-  n = int(input())
-  print(' '.join([str(x) for x in primefactor(n)]))
+    n = int(input())
+    print(" ".join([str(x) for x in primefactor(n)]))

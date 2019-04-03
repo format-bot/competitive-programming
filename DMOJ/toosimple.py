@@ -24,5 +24,5 @@ meme = [H, e, l, l, o, COMMA, SPC, W, o, r, l, d, EX]
 
 kek = str()
 for m in meme:
-  kek += chr(m)
+    kek += chr(m)
 print(kek)

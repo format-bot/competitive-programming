@@ -4,6 +4,6 @@ aaa = True
 for k in s:
     if k not in meme:
         aaa = False
-        break;
-        
+        break
+
 print("YES" if aaa else "NO")
